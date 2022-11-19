@@ -1,6 +1,6 @@
 :root{
-    --nav-bar-color:#06304b;
-    --border-accent-color:#ffce3f;
-    --nav-menu-color:#0094b6;
-    --accent-color:#c8f4ff;
-  }
+  --nav-bar-color:rgb();
+  --border-accent-color:rgb();
+  --nav-menu-color:rgb();
+  --accent-color:rgb();
+}

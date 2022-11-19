@@ -106,7 +106,6 @@ body {
 
 .navbar .menu-items {
   padding-top: 120px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
   height: 100vh;
   max-width: 500px;
   width: 80%;
@@ -133,7 +132,7 @@ body {
   font-weight: 500;
 }
 
-.logo {
+.logo{
   position: absolute;
   top: 5px;
   right: 15px;
@@ -159,7 +158,4 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
-}
-path{
-  fill:green;
 }
