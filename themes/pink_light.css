@@ -1,5 +1,6 @@
 :root{
-    --nav-bar-color:rgb(127, 97, 148);
-    --border-accent-color:rgb(98, 69, 121);
-    --nav-menu-color:rgb(149, 73, 172);
-  }
+  --nav-bar-color:rgb(131, 49, 125);
+  --border-accent-color:rgb(77, 30, 73);
+  --nav-menu-color:rgb(177, 123, 172);
+  --accent-color:rgb(255, 249, 223);
+}
