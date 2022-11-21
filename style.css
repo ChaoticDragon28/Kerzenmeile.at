@@ -158,14 +158,4 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
-<<<<<<< HEAD
-}
-path{
-  fill:green;
-}
-
-img{
-  --svg-color:red;
-=======
->>>>>>> 55df1efa5640e6670d7d9436aa273339c0c6707a
 }
