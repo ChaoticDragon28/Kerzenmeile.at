@@ -163,3 +163,7 @@ body {
 path{
   fill:green;
 }
+
+img{
+  --svg-color:red;
+}
