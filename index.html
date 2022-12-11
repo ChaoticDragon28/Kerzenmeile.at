@@ -14,27 +14,46 @@
     <nav>
       <div class="navbar">
         <div class="container nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
+            <input class="checkbox" type="checkbox" name="nav-menu-toggle" id="" />
             <div class="hamburger-lines">
               <span class="line line1"></span>
               <span class="line line2"></span>
               <span class="line line3"></span>
-            </div>  
-          <div class="logo">
-            <h1>Kerzenmeile.at</h1>
-          </div>
-          <div class="menu-items" style="text-align: left;">
-            <li><a class="link" href="#"><img src="home.svg" alt="" style="height: 30px;transform: translate(0,6px);"><text> Home</text></a></li>
-            <li><a class="link" href="#"><img src="candle.svg" alt="" style="height: 30px;transform: translate(10px,6px);"><text style="position: relative;left:25px;">Kerzen</text></a></li>
-            <li><a class="link" href="#"><img src="cart.svg" alt="" style="height: 30px;transform: translate(2px,8.5px);"><text style="position: relative;left:7px;">Online Shop</text></a></li> 
-            <li><a class="link" href="#"><img src="contact.svg" alt="" style="height: 30px;transform: translate(2px,7px);"><text style="position: relative;left:8px;">Kontakt</text></a></li>
-            <li><a class="link" href="#"><img src="impressum.svg" alt="" style="height: 30px;transform: translate(5px,9px);"><text style="position: relative;left:14px;">Impressum</text></a></li>
-            <li><a class="link" href="#"><img src="small_candle.svg" alt="" style="height: 30px;transform: translate(8px,7px);"><text style="position:relative;left:19px;">Digitale Kerzen</text></a></li>
-            <li><a class="link" href="#"><img src="theme_switcher.svg" alt="" style="height: 30px;transform: translate(5px,7px);"><text style="position:relative;left:8px;">Farbschema</text></a></li>
+            </div>
+            <div class="logo">
+              <h1>Kerzenmeile.at</h1>
+            </div>
+            <div class="menu-items" style="text-align: left;">
+
+            <li><button class="link contains-subfolders" onclick="toggleHidden('home-submenu','home-tri')" id="home">Home <img src="tri.svg" alt="" class="tri" id="home-tri"></button></li>
+
+            <div id="home-submenu" class="hidden">
+              <li class="in-submenu"><a class="link home " href="#">-Info</a></li>
+              <li class="in-submenu"><a class="link home " href="#">-Öffnungszeiten</a></li>
+              <li class="in-submenu"><a class="link home " href="#">-Über mich</a></li>
+            </div>
+
+            <li><button class="link contains-subfolders" onclick="toggleHidden('candles-submenu','candle-tri')">Kerzen <img src="tri.svg" alt="" class="tri" id="candle-tri"></button></li>
+
+            <div id="candles-submenu" class="hidden">
+              <li class="in-submenu"><a class="link candle" href="#">-Taufkerzen</a></li>
+              <li class="in-submenu"><a class="link candle" href="#">-Hochzeitskerzen</a></li>
+              <li class="in-submenu"><a class="link candle" href="#">-Trauerkerzen<img src="https://pic.onlinewebfonts.com/svg/img_506243.png" alt="" style="position: relative; height: 50px;top: 10px;"></a></li>
+              <li class="in-submenu"><a class="link candle" href="#">-Kerzen für feierliche anlässe</a></li>
+            </div>
+            <li><a class="link" href="#">Online Shop</a></li> 
+            <li><a class="link" href="#">Kontakt</a></li>
+            <li><a class="link" href="#">Impressum</a></li>
+            <li><a class="link" href="#">Digitale Kerzen</a></li>
+            <li><a class="link" href="#">Farbschema</a></li>
           </div>
         </div>
       </div>
     </nav>
+
+    
+
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, optio aliquid non porro adipisci numquam velit vitae repudiandae dolor provident qui error ducimus delectus distinctio! Neque, non maxime. Beatae, ex.</p>
     <p>Temporibus itaque similique fuga eveniet, deserunt est pariatur ipsum, quidem officia ut quam possimus a. Laboriosam eaque similique quis placeat molestiae perferendis ea suscipit deleniti doloribus dolorum? Corrupti, laboriosam dolore?</p>
     <p>Maxime ea maiores magni veritatis unde delectus labore dicta ipsam optio tenetur qui temporibus, consectetur assumenda voluptatem laborum culpa doloremque molestiae similique odio aspernatur? Eligendi autem vero voluptas molestias. Excepturi?</p>
