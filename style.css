@@ -44,13 +44,24 @@ body {
   list-style: none;
 }
 
-.navbar .nav-container a {
+.navbar .nav-container a{
   text-decoration: none;
   color:var(--accent-color);
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
+
+}.contains-subfolders{
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color:var(--accent-color);
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.7rem !important;
+  padding-left: 0;
 }
+
 
 .navbar .nav-container .link:hover{
     font-weight: bolder;
@@ -158,4 +169,16 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
+}
+.tri{
+  transform: rotate(-90deg);
+}
+
+
+.hidden{
+  display: none;
+}
+
+.in-submenu{
+  padding-left: 1.6rem !important;
 }
